@@ -14,7 +14,7 @@ Function ResolveAddress(rawInput)
 
     Select Case clean
         Case "1"
-            ResolveAddress = "https:///thechromium.github.io/internetcommunicator/"
+            ResolveAddress = "https:///thechromium.github.io/internetcommunicator/index"
         Case "2"
             ResolveAddress = "https://google.com"
         Case "3"
