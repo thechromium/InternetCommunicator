@@ -257,5 +257,18 @@ footer {
 @media (max-width: 780px) {
   .hero, .showcase-grid, .two-col {
     grid-template-columns: 1fr;
+    
+    .os-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.os-btn img {
+  width: 24px;
+  height: 24px;
+  object-fit: contain;
+}
+
   }
 }
