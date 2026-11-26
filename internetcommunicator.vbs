@@ -14,7 +14,7 @@ Function ResolveAddress(rawInput)
 
     Select Case clean
         Case "1"
-            ResolveAddress = "https://github.io"
+            ResolveAddress = "https:///thechromium.github.io/internetcommunicator/"
         Case "2"
             ResolveAddress = "https://google.com"
         Case "3"
@@ -126,7 +126,7 @@ Do
 
     choice = InputBox( _
         "INTERNET COMMUNICATOR 1.0  " & modeTag & vbCrLf & _
-        "1: NexOS   2: Google   3: YouTube   4: Wiki   5: GitHub" & vbCrLf & _
+        "1: Internet Communicator Official Webpage   2: Google   3: YouTube   4: Wiki   5: GitHub" & vbCrLf & _
         "Bookmarks: /add  |  /favs       Privacy: /private" & vbCrLf & _
         "History: /history  |  /clear" & vbCrLf & _
         "Enter 1-5, a URL, search terms, or /command:", _
