@@ -1,84 +1,80 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Download - Internet Communicator 1.1</title>
-  <link rel="icon" type="image/png" href="ic.png">
-  <link rel="stylesheet" href="ic.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Download Internet Communicator 1.2</title>
+  <link rel="icon" type="image/png" href="ic.png" />
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-
-  <div class="aero-shell">
-    <header>
-      <div class="brand">
-        <div class="logo-orb">
-          <img src="ic.png" alt="Internet Communicator Logo">
+  <div class="container">
+    <div class="glass-window">
+      <div class="window-header">
+        <div class="brand">
+          <img src="ic.png" alt="Internet Communicator Logo" width="46" height="46" class="logo-orb" />
+          <div>
+            <h1>Internet Communicator <span class="badge">1.2</span></h1>
+            <p class="subtitle">Download Center &amp; Quick Start Guide</p>
+          </div>
         </div>
-        <div class="brand-text">
-          <h1>Internet Communicator <span class="version-pill">1.1</span></h1>
-          <p>Crystal-Clear, Lightweight &amp; Instant Web Navigation</p>
-        </div>
+        <nav class="nav-pills">
+          <a href="index.html">Home</a>
+          <a href="download.html" class="active">Download</a>
+          <a href="about.html">About</a>
+        </nav>
       </div>
 
-      <nav>
-        <a href="index.html" class="gel-pill">Home</a>
-        <a href="download.html" class="gel-pill active">Download</a>
-        <a href="about.html" class="gel-pill">About</a>
-      </nav>
-    </header>
-
-    <section class="hero">
-      <div class="hero-copy">
-        <h2>Download Internet Communicator 1.1</h2>
-        <p>
-          Choose your platform below! No heavy setup wizards—just download the native script for your operating system and launch right away.
-        </p>
-        <div style="display: flex; flex-wrap: wrap; gap: 12px;">
-          <a href="InternetCommunicator.vbs" download class="candy-btn" style="display: inline-flex; align-items: center; gap: 10px;">
-            <img src="winlogo.webp" alt="Windows" width="22" height="22" style="width: 22px; height: 22px; object-fit: contain;"> Download for Windows (.vbs)
+      <div class="content-card">
+        <h2>Download Version 1.2 (Desktop &amp; Laptop Only)</h2>
+        <p>Choose your operating system below. No installation wizard or admin rights required:</p>
+        <div class="cta-row">
+          <a href="InternetCommunicator.vbs" download="InternetCommunicator.vbs" class="btn-aqua">
+            <img src="winlogo.webp" alt="Windows" width="22" height="22" style="width:22px;height:22px;object-fit:contain;vertical-align:middle;" />
+            <span>Download for Windows (.vbs)</span>
           </a>
-          <a href="InternetCommunicator.applescript" download class="candy-btn" style="display: inline-flex; align-items: center; gap: 10px;">
-            <img src="maclogo.webp" alt="macOS" width="22" height="22" style="width: 22px; height: 22px; object-fit: contain;"> Download for macOS (.applescript)
+          <a href="InternetCommunicator.applescript" download="InternetCommunicator.applescript" class="btn-gold">
+            <img src="maclogo.webp" alt="macOS" width="22" height="22" style="width:22px;height:22px;object-fit:contain;vertical-align:middle;" />
+            <span>Download for macOS (.applescript)</span>
+          </a>
+          <a href="InternetCommunicator.sh" download="InternetCommunicator.sh" class="btn-aqua">
+            <img src="linuxlogo.webp" alt="Linux" width="22" height="22" style="width:22px;height:22px;object-fit:contain;vertical-align:middle;" />
+            <span>Download for Linux (.sh)</span>
           </a>
         </div>
       </div>
 
-      <div class="glass-frame">
-        <img src="fishearthwater.jpg" alt="Download Decoration">
-      </div>
-    </section>
-
-    <section class="showcase-grid">
-      <div class="aqua-card">
-        <h3><img src="winlogo.webp" alt="Windows" width="20" height="20" style="width: 20px; height: 20px; vertical-align: middle; margin-right: 6px;">Windows Edition</h3>
-        <p>
-          Download <code>InternetCommunicator.vbs</code>, save it anywhere on your PC, and double-click to launch immediately.
-        </p>
-      </div>
-
-      <div class="aqua-card">
-        <h3><img src="maclogo.webp" alt="macOS" width="20" height="20" style="width: 20px; height: 20px; vertical-align: middle; margin-right: 6px;">macOS Edition</h3>
-        <p>
-          Download <code>InternetCommunicator.applescript</code>, open it in <strong>Script Editor</strong>, and click <strong>Run</strong> (or export as a Mac App).
-        </p>
+      <div class="features-grid">
+        <div class="feature-card">
+          <h3>Windows Setup</h3>
+          <p>Download <strong>InternetCommunicator.vbs</strong>, place it in its own folder, and double-click to launch maximized windows.</p>
+        </div>
+        <div class="feature-card">
+          <h3>macOS Setup</h3>
+          <p>Download <strong>InternetCommunicator.applescript</strong>, open in Apple's built-in <em>Script Editor</em>, and press <strong>Run</strong>.</p>
+        </div>
+        <div class="feature-card">
+          <h3>Linux Setup</h3>
+          <p>Download <strong>InternetCommunicator.sh</strong>, open Terminal in your folder, and run <code>chmod +x InternetCommunicator.sh &amp;&amp; ./InternetCommunicator.sh</code>.</p>
+        </div>
       </div>
 
-      <div class="aqua-card">
-        <h3>What's New in 1.1</h3>
+      <div class="content-card" style="margin-top: 18px;">
+        <h3>What's New in 1.2</h3>
         <ul>
-          <li><code>/sethome</code> — Custom homepage URL</li>
-          <li><code>/engine</code> — Google, Bing, or DuckDuckGo</li>
-          <li>Full <strong>macOS</strong> AppleScript release</li>
+          <li><strong>Linux Support:</strong> Added native bash/zenity edition (<code>InternetCommunicator.sh</code>)—suggested by <strong>Diego</strong>!</li>
+          <li><strong>Maximized App Windows:</strong> Websites now open full-screen right away with automatic browser fallback.</li>
+          <li><strong>New Slash Commands:</strong> Added <code>/tabs</code>, <code>/reopen</code>, <code>/yt</code>, <code>/wiki</code>, <code>/downloads</code>, <code>/about</code>, and a cleaner categorized <code>/help</code> menu.</li>
+          <li><strong>History Backup &amp; Purge:</strong> <code>/clear</code> automatically saves a backup copy to your Downloads folder, while <code>/purge</code> permanently erases all logs.</li>
         </ul>
       </div>
-    </section>
 
-    <footer>
-      &copy; 2026 Internet Communicator Project &bull; Version 1.1 &bull; Windows &amp; macOS
-    </footer>
+      <div class="window-footer">
+        Internet Communicator v1.2 &bull; Pure-Script Cross-Platform Edition
+      </div>
+    </div>
   </div>
-
 </body>
 </html>
+
 
