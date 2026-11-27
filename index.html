@@ -1,99 +1,76 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Internet Communicator 1.1 - Refreshing Web Navigation</title>
-  <link rel="icon" type="image/png" href="ic.png">
-  <link rel="stylesheet" href="ic.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Internet Communicator 1.2 - Lightweight Cross-Platform Web Launcher</title>
+  <link rel="icon" type="image/png" href="ic.png" />
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-
-  <div class="aero-shell">
-    <header>
-      <div class="brand">
-        <div class="logo-orb">
-          <img src="ic.png" alt="Internet Communicator Logo">
+  <div class="container">
+    <div class="glass-window">
+      <div class="window-header">
+        <div class="brand">
+          <img src="ic.png" alt="Internet Communicator Logo" width="46" height="46" class="logo-orb" />
+          <div>
+            <h1>Internet Communicator <span class="badge">1.2</span></h1>
+            <p class="subtitle">Crystal-Clear, Lightweight &amp; Instant Web Navigation</p>
+          </div>
         </div>
-        <div class="brand-text">
-          <h1>Internet Communicator <span class="version-pill">1.1</span></h1>
-          <p>Crystal-Clear, Lightweight &amp; Instant Web Navigation</p>
+        <nav class="nav-pills">
+          <a href="index.html" class="active">Home</a>
+          <a href="download.html">Download</a>
+          <a href="about.html">About</a>
+        </nav>
+      </div>
+
+      <div class="hero-section">
+        <div class="hero-text">
+          <h2>Now Available for Windows, Mac &amp; Linux</h2>
+          <p>
+            Welcome to <strong>Internet Communicator 1.2</strong>—a sleek, ultra-fast web launcher built for Windows, macOS, and Linux. Open maximized app windows, launch multiple tabs at once with <code>/tabs</code>, search YouTube or Wikipedia directly, and browse cleanly with Private Incognito Mode.
+          </p>
+          <div class="cta-row">
+            <a href="InternetCommunicator.vbs" download="InternetCommunicator.vbs" class="btn-aqua">
+              <img src="winlogo.webp" alt="Windows" width="22" height="22" style="width:22px;height:22px;object-fit:contain;vertical-align:middle;" />
+              <span>Windows (.vbs)</span>
+            </a>
+            <a href="InternetCommunicator.applescript" download="InternetCommunicator.applescript" class="btn-gold">
+              <img src="maclogo.webp" alt="macOS" width="22" height="22" style="width:22px;height:22px;object-fit:contain;vertical-align:middle;" />
+              <span>macOS (.applescript)</span>
+            </a>
+            <a href="InternetCommunicator.sh" download="InternetCommunicator.sh" class="btn-aqua">
+              <img src="linuxlogo.webp" alt="Linux" width="22" height="22" style="width:22px;height:22px;object-fit:contain;vertical-align:middle;" />
+              <span>Linux (.sh)</span>
+            </a>
+          </div>
+        </div>
+        <div class="hero-art">
+          <img src="hero-aero.jpg" alt="Frutiger Aero Aquarium" />
         </div>
       </div>
 
-      <nav>
-        <a href="index.html" class="gel-pill active">Home</a>
-        <a href="download.html" class="gel-pill">Download</a>
-        <a href="about.html" class="gel-pill">About</a>
-      </nav>
-    </header>
-
-    <section class="hero">
-      <div class="hero-copy">
-        <h2>Now Available for Windows &amp; Mac</h2>
-        <p>
-          Welcome to <strong>Internet Communicator 1.1</strong>—a sleek, ultra-fast web launcher built for both Windows and macOS. Set your custom homepage with <code>/sethome</code>, switch search engines with <code>/engine</code>, and browse cleanly with Private Incognito Mode.
-        </p>
-        <div style="display: flex; flex-wrap: wrap; gap: 12px;">
-          <a href="InternetCommunicator.vbs" download class="candy-btn" style="display: inline-flex; align-items: center; gap: 10px;">
-            <img src="winlogo.webp" alt="Windows" width="22" height="22" style="width: 22px; height: 22px; object-fit: contain;"> Windows (.vbs)
-          </a>
-          <a href="InternetCommunicator.applescript" download class="candy-btn" style="display: inline-flex; align-items: center; gap: 10px;">
-            <img src="maclogo.webp" alt="macOS" width="22" height="22" style="width: 22px; height: 22px; object-fit: contain;"> macOS (.applescript)
-          </a>
+      <div class="features-grid">
+        <div class="feature-card">
+          <h3>Power Slash Commands</h3>
+          <p>Launch multiple sites with <code>/tabs</code>, reopen your last page with <code>/reopen</code>, or search directly with <code>/yt</code> and <code>/wiki</code>.</p>
+        </div>
+        <div class="feature-card">
+          <h3>Smart History &amp; Privacy</h3>
+          <p>Toggle <code>/private</code> anytime, auto-backup cleared logs to Downloads with <code>/clear</code>, or permanently erase everything with <code>/purge</code>.</p>
+        </div>
+        <div class="feature-card">
+          <h3>Windows, Mac &amp; Linux</h3>
+          <p>Version 1.2 adds native Linux (<code>.sh</code>) support alongside Windows (<code>.vbs</code>) and macOS (<code>.applescript</code>) with zero heavy installers.</p>
         </div>
       </div>
 
-      <div class="glass-frame">
-        <img src="fishaero.jpg" alt="Frutiger Aero Decoration">
+      <div class="window-footer">
+        Internet Communicator v1.2 &bull; Pure-Script Cross-Platform Edition &bull; Desktop &amp; Laptop Only
       </div>
-    </section>
-
-    <section class="showcase-grid">
-      <div class="aqua-card">
-        <h3>Custom Homepage &amp; Search</h3>
-        <p>
-          Set your own Speed Dial #1 homepage anytime with <code>/sethome</code> and switch between Google, Bing, or DuckDuckGo using <code>/engine</code>.
-        </p>
-      </div>
-
-      <div class="aqua-card">
-        <h3>Private Incognito Mode</h3>
-        <p>
-          Toggle <code>/private</code> anytime to launch InPrivate / Incognito windows without saving a single entry to your history log.
-        </p>
-      </div>
-
-      <div class="aqua-card">
-        <h3>Cross-Platform Support</h3>
-        <p>
-          Version 1.1 brings native support for both <strong>Windows</strong> (<code>.vbs</code>) and <strong>macOS</strong> (<code>.applescript</code>) with zero heavy installers.
-        </p>
-      </div>
-    </section>
-
-    <section class="showcase-grid">
-      <div class="glass-frame">
-        <img src="fishearthwater.jpg" alt="Aquatic Globe Decoration">
-      </div>
-
-      <div class="glass-frame">
-        <img src="frutigerbg.png" alt="Sky and Water Decoration">
-      </div>
-
-      <div class="aqua-card">
-        <h3>Custom Bookmarks</h3>
-        <p>
-          Save your favorite websites permanently with <code>/add</code> and pull up your personal speed-dial list anytime using <code>/favs</code>.
-        </p>
-      </div>
-    </section>
-
-    <footer>
-      &copy; 2026 Internet Communicator Project &bull; Version 1.1 &bull; Windows &amp; macOS
-    </footer>
+    </div>
   </div>
-
 </body>
 </html>
 
