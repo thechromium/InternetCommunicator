@@ -1,68 +1,62 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>About - Internet Communicator 1.1</title>
-  <link rel="icon" type="image/png" href="ic.png">
-  <link rel="stylesheet" href="ic.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>About Internet Communicator 1.2</title>
+  <link rel="icon" type="image/png" href="ic.png" />
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-
-  <div class="aero-shell">
-    <header>
-      <div class="brand">
-        <div class="logo-orb">
-          <img src="ic.png" alt="Internet Communicator Logo">
+  <div class="container">
+    <div class="glass-window">
+      <div class="window-header">
+        <div class="brand">
+          <img src="ic.png" alt="Internet Communicator Logo" width="46" height="46" class="logo-orb" />
+          <div>
+            <h1>Internet Communicator <span class="badge">1.2</span></h1>
+            <p class="subtitle">Project Story, Credits &amp; Roadmap</p>
+          </div>
         </div>
-        <div class="brand-text">
-          <h1>Internet Communicator <span class="version-pill">1.1</span></h1>
-          <p>Crystal-Clear, Lightweight &amp; Instant Web Navigation</p>
-        </div>
+        <nav class="nav-pills">
+          <a href="index.html">Home</a>
+          <a href="download.html">Download</a>
+          <a href="about.html" class="active">About</a>
+        </nav>
       </div>
 
-      <nav>
-        <a href="index.html" class="gel-pill">Home</a>
-        <a href="download.html" class="gel-pill">Download</a>
-        <a href="about.html" class="gel-pill active">About</a>
-      </nav>
-    </header>
-
-    <section class="page-section">
-      <h2>About Internet Communicator 1.1</h2>
-
-      <div class="two-col">
-        <div class="aqua-card">
-          <h3>Our Vision</h3>
-          <p>
-            <strong>Internet Communicator 1.1</strong> brings back the crisp, refreshing feel of mid-2000s desktop software without sacrificing modern webpage compatibility. Now available on both Windows and macOS, it gives users a fast, distraction-free launcher for everyday browsing.
-          </p>
-        </div>
-
-        <div class="glass-frame">
-          <img src="fishaero.jpg" alt="Frutiger Aero Fish Decoration">
-        </div>
+      <div class="content-card">
+        <h2>Why Internet Communicator?</h2>
+        <p>
+          Modern browsers have become bloated with background telemetry, heavy installers, and cluttered menus. <strong>Internet Communicator</strong> brings back the optimism of mid-2000s software—using 100% pure native scripts (<code>.vbs</code>, <code>.applescript</code>, and <code>.sh</code>) to launch real websites cleanly with zero bloat.
+        </p>
       </div>
 
-      <div class="two-col">
-        <div class="glass-frame">
-          <img src="frutigerbg.png" alt="Frutiger Aero Scenery">
-        </div>
-
-        <div class="aqua-card">
-          <h3>Lightweight &amp; Native</h3>
-          <p>
-            Powered by native Windows VBScript (<code>.vbs</code>) and macOS AppleScript (<code>.applescript</code>), Internet Communicator requires zero bulky background services. It pairs an instant speed-dial launcher with standalone app windows so every website opens clean and clutter-free.
-          </p>
-        </div>
+      <div class="content-card" style="margin-top: 18px;">
+        <h2>Community Credits</h2>
+        <ul>
+          <li><strong>Diego:</strong> Suggested adding native Linux (<code>.sh</code>) support for Version 1.2!</li>
+        </ul>
       </div>
-    </section>
 
-    <footer>
-      &copy; 2026 Internet Communicator Project &bull; Version 1.1 &bull; Windows &amp; macOS
-    </footer>
+      <div class="content-card" style="margin-top: 18px;">
+        <h2>Release Roadmap (1.0 &rarr; 3.0)</h2>
+        <ul>
+          <li><strong>Version 1.0:</strong> Initial Frutiger Aero Windows release with Speed Dial, Private Mode, Bookmarks, and History.</li>
+          <li><strong>Version 1.1:</strong> Cross-platform macOS support, custom homepage (<code>/sethome</code>), and search engine switcher (<code>/engine</code>).</li>
+          <li><strong>Version 1.2 (Current):</strong> Linux support (<code>.sh</code>), maximized windows, multi-tab launcher (<code>/tabs</code>), direct YouTube/Wiki search, and history backup/purge.</li>
+          <li><strong>Versions 1.3 &ndash; 1.5:</strong> GitHub search (<code>/gh</code>), clipboard launcher (<code>/paste</code>), release notes (<code>/news</code>), custom Speed Dial editor, and user profiles.</li>
+          <li><strong>Version 2.0 (Flat Design Era):</strong> Major visual overhaul shifting to crisp Flat Design with an auto-generated clickable HTML Start Page dashboard inside pure VBScript.</li>
+          <li><strong>Version 3.0 (Modern Glass Era):</strong> Translucent glass UI overhaul, workspace presets, and portable mode.</li>
+        </ul>
+      </div>
+
+      <div class="window-footer">
+        Internet Communicator v1.2 &bull; Built for Windows, macOS &amp; Linux
+      </div>
+    </div>
   </div>
-
 </body>
 </html>
+
 
