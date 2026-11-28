@@ -237,9 +237,7 @@ Do
         isPrivate = Not isPrivate
         If isPrivate Then MsgBox "Incognito Mode: ON", vbInformation, "IC 1.3" Else MsgBox "Incognito Mode: OFF", vbInformation, "IC 1.3"
 
-    ElseIf cmd = "/reopen" Then
-Use code with caution.
-If lastUrl <> "" Then OpenWebWindow lastUrl, isPrivate Else MsgBox "No last site saved yet!", vbInformation, "IC 1.3"
+    ElseIf cmd = "/reopen" Then If lastUrl <> "" Then OpenWebWindow lastUrl, isPrivate Else MsgBox "No last site saved yet!", vbInformation, "IC 1.3"
 ElseIf cmd = "/tabs" Or Left(cmd, 6) = "/tabs " Then
 qVal = AskOrArg(cmd, rawCmd, 6, "Enter URLs separated by commas:", "Open Multiple Tabs")
 Dim item
